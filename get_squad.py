@@ -33,10 +33,10 @@ class SquadDownloader:
             os.makedirs(self.save_path + '/v2.0')
 
         self.download_urls = {
-            'https://cris-her.github.io/People_search' '/train-v1.1.json': 'v1.1/train-v1.1.json',
-            'https://cris-her.github.io/People_search' '/dev-v1.1.json': 'v1.1/dev-v1.1.json',
-            'https://cris-her.github.io/People_search' '/train-v2.0.json': 'v2.0/train-v2.0.json',
-            'https://cris-her.github.io/People_search' '/dev-v2.0.json': 'v2.0/dev-v2.0.json',
+            'https://ale441.github.io/Busqueda_de_personas' '/train-v1.1.json': 'v1.1/train-v1.1.json',
+            'https://ale441.github.io/Busqueda_de_personas' '/dev-v1.1.json': 'v1.1/dev-v1.1.json',
+            'https://ale441.github.io/Busqueda_de_personas' '/train-v2.0.json': 'v2.0/train-v2.0.json',
+            'https://ale441.github.io/Busqueda_de_personas' '/dev-v2.0.json': 'v2.0/dev-v2.0.json',
         }
 
     def download(self):
